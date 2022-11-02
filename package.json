@@ -1,0 +1,22 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Landing page project for Odin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camronborts/landing-page.git"
+  },
+  "author": "arctic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camronborts/landing-page/issues"
+  },
+  "homepage": "https://github.com/camronborts/landing-page#readme",
+  "dependencies": {
+    "polyfill-library-node": "^1.1.0"
+  }
+}
