@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 
 * {
-    background-color: darkcyan;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
 }
 
 header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     padding: 5px 10%;
+
 }
 
 .logo {
@@ -49,22 +51,46 @@ li, a, button {
 
 
 
+
+        
+        
+        h1, p {
+            color: #E5E7EB;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding-top: 2em;
+            
+
+        }
+        
+        
 .flex-container {
+    flex-direction: row;
     background:#1F2937;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.flex-container div {
-    background: #1F2937;
-    border: 1px dashed white;
-    height: 100px;
+    justify-content: space-evenly;
+    height: 400px;
+    border-top: 200px;
     
-
-
 }
 
-h1, p {
-    color: #E5E7EB;
+.tile {
+
+    height: 100px;
+    width: 200px;
+}
+
+
+
+button {
+    padding: 0.6em 2em;
+    border-radius: 50px;
+    color: white;
+    background-color: #3882F6;
+    font-size: 1.1em;
+    border: 0;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 90px;
+    
+    
 }
