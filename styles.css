@@ -55,17 +55,63 @@ li, a, button {
 
         
         
-        h1, p {
+        h1 {
             color: #E5E7EB;
             margin-left: 100px;
-
             padding-top: 2em;
             
         }
-        
-        p {
+        .f1sub {
+            color: #E5E7EB;
+            margin-left: 100px;
+            padding-top: 2em;
             width: 60%;
+            
         }
+
+        .f2sub1 {
+            align-items: center;
+            justify-content: center;
+            padding: 1em;
+        }
+        .f2sub2 {
+            align-items: center;
+            justify-content: center;
+            padding: 1em;
+        }
+        .f2sub3 {
+            align-items: center;
+            justify-content: center;
+            padding: 1em;
+        }
+        .f2sub4 {
+            align-items: center;
+            justify-content: center;
+            padding: 1em;
+            text-align: left;
+        }
+
+        #f3sub1 {
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+            padding: 100px;
+            padding-left: 700px;
+            padding-right: 700px;
+            padding-bottom: 10px;
+        }
+
+        #f3sub2 {
+            padding-right: 700px;
+            align-items: flex-start;
+                        
+        }
+
+h3 {
+    text-align: end;
+
+}
+
 
         h2 {
             padding: 1.5em;
@@ -99,6 +145,7 @@ li, a, button {
 }
 
 .flex-container-two div {
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin: 50px;
@@ -112,6 +159,7 @@ li, a, button {
     height: 150px;
     border: 3px solid black;
     border-radius: 10px;
+    
 }
 
 .vec2 {
@@ -140,6 +188,12 @@ li, a, button {
     border: 3px solid black;
     border-radius: 10px;
 }
+
+#sub1 {
+    align-items: center;
+    justify-content: center;
+}
+
 
 .tile {
 
