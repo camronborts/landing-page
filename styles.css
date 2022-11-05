@@ -12,14 +12,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 5px 10%;
+    padding: 25px;
+
 
 }
 
 .logo {
     background-color: #1F2937;
-    margin-right: auto;
     font-size: 18px;
+    
     padding: 5px 10%;
     color: #edf0f1;
     width: auto;
@@ -57,27 +58,101 @@ li, a, button {
         h1, p {
             color: #E5E7EB;
             margin-left: 100px;
-            margin-right: 100px;
+
             padding-top: 2em;
             
-
         }
         
+        p {
+            width: 60%;
+        }
+
+        h2 {
+            padding: 1.5em;
+            text-align: center;
+            align-items: center;
+        }
         
 .flex-container {
-    flex-direction: row;
+    display: flex;
+    align-items: center;
     background:#1F2937;
-    justify-content: space-evenly;
-    height: 400px;
-    border-top: 200px;
+    justify-content: center;
+    height: 350px;
     
+        
+}
+
+.flex-container-two {
+    display: flex;
+    align-items:center;
+    background: white;
+    justify-content: space-between;
+    height: 350px;
+        
+}
+
+.flex-container div {
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.flex-container-two div {
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 10px;
+}
+
+.vec1 {
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.vec2 {
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.vec3 {
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.vec4 {
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 .tile {
 
-    height: 100px;
-    width: 200px;
+    height: auto;
+    width: 60%;
 }
+
+.flex-container-three {
+    background-color: #E5E7EB;
+    height: 350px;
+}
+
+
 
 
 
